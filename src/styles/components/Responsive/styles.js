@@ -1,16 +1,36 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  width: 20rem;
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  5px 5px 1px #11111f,
+             -5px -5px 1px #ffffff;
+
+  & img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 export const TextContent = styled.div`
+
+  & h1 {
+    text-align: center;
+    font-size: large;
+  }
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: aliceblue;
-  width: 50%;
+  /* background-color: aliceblue; */
+  width: 100%;
+  text-align: center;
 `;
