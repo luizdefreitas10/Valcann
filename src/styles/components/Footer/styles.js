@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   background-color: #11111f;
-  height: 11.5rem;
+  height: 12.5rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-top: 3.5rem;
+  padding: 2rem;
 
   & p {
     color: white;

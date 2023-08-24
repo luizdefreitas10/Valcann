@@ -25,3 +25,9 @@ export const H1 = styled.h1`
   text-align: center;
   font-weight: 300;
 `;
+
+export const WhyTechSalesText = styled.p`
+  margin: 1rem 0;
+  padding: 2rem;
+  background-color: aliceblue;
+`;
