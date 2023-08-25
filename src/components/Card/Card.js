@@ -3,7 +3,9 @@ import {
   TextContent,
 } from "../../styles/components/Responsive/styles";
 import { services } from "../../mocks/Cards/cards.js";
-import Button from "../Button/Button";
+import CustomButton from "../CustomButton/CustomButton";
+import AddToCartButton from "../AddToCartButton/AddToCartButton";
+
 
 export default function Card() {
   return services.map((service) => (
@@ -19,7 +21,8 @@ export default function Card() {
         <br />
         <p>{service.description}</p>
       </TextContent>
-      <Button />
+      <CustomButton serviceId={service.id} />
+      <AddToCartButton serviceDetail={service}/>
     </Container>
   ));
 }

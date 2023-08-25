@@ -17,7 +17,7 @@ export const Content = styled.div`
   margin-top: 410px;
   margin-bottom: 0.5rem;
   background-color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: justify;
 `;
 

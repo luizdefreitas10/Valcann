@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import CustomButton from "../CustomButton/CustomButton";
 import transformingIcon from "../../assets/imgs/transformingIcon.jpeg";
 import {
   Container,
@@ -28,7 +28,7 @@ export default function AboutUs() {
             transformação digital.
           </p>
           <br/>
-          <Button />
+          <CustomButton />
         </AboutUsTextContainer>
       </Container>
     </>

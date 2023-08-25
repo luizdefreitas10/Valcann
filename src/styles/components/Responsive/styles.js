@@ -11,6 +11,7 @@ export const Container = styled.div`
   background: #ffffff;
   box-shadow:  5px 5px 1px #11111f,
              -5px -5px 1px #ffffff;
+  height: 35rem;
 
   & img {
     margin: 0 auto;
