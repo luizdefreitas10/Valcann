@@ -9,8 +9,7 @@ Um moderno e-commerce desenvolvido para venda de serviços de tecnologia. Utiliz
 ## 🚀 Principais Funcionalidades
 
 - 🛍️ Carrinho de compras robusto.
-- 🎯 Filtro e busca para encontrar facilmente os serviços desejados.
-- 🔒 Integração segura para pagamentos.
+- 🎯 Busca facilmente os serviços desejados.
 - 📈 Painel do usuário para acompanhamento de compras.
 - 📜 Descrição detalhada de cada serviço.
 
