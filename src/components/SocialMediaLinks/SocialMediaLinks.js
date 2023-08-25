@@ -9,12 +9,12 @@ import youtubeIcon from '../../assets/svgs/youtubeIcon.svg';
 export default function SocialMediaLinks () {
   return (
     <IconsContainer>
-      <img src={facebookIcon} alt='facebookIcon' width={50} height={50} />
-      <img src={googleIcon} alt='googleIcon' width={50} height={50} />
-      <img src={instagramIcon} alt='instagramIcon' width={50} height={50} />
-      <img src={twiterIcon} alt='twiterIcon' width={50} height={50} />
-      <img src={whatsappIcon} alt='whatsappIcon' width={50} height={50} />
-      <img src={youtubeIcon} alt='youtubeIcon' width={50} height={50} />
+      <img src={facebookIcon} alt='facebookIcon' width={40} height={40} />
+      <img src={googleIcon} alt='googleIcon' width={40} height={40} />
+      <img src={instagramIcon} alt='instagramIcon' width={40} height={40} />
+      <img src={twiterIcon} alt='twiterIcon' width={40} height={40} />
+      <img src={whatsappIcon} alt='whatsappIcon' width={40} height={40} />
+      <img src={youtubeIcon} alt='youtubeIcon' width={40} height={50} />
     </IconsContainer>
   );
 };

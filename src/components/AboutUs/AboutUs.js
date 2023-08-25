@@ -1,4 +1,3 @@
-import CustomButton from "../CustomButton/CustomButton";
 import transformingIcon from "../../assets/imgs/transformingIcon.jpeg";
 import {
   Container,
@@ -7,6 +6,8 @@ import {
   AboutUsH1
 } from "../../styles/components/AboutUs/styles";
 import CapacitingButton from "../CapacitingButton/CapacitingButton";
+
+
 
 export default function AboutUs() {
   return (

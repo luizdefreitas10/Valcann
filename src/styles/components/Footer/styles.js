@@ -14,8 +14,8 @@ export const FooterContainer = styled.footer`
     color: white;
   }
 
-  @media (max-width: 900px) {
-    flex-direction: column;
+  @media (max-width: 600px) {
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     height: 17.5rem;
