@@ -10,7 +10,7 @@ export const StyledButton = styled.button`
   text-decoration: none;
   background: transparent;
   padding: 0;
-  font-size: inherit;
+  font-size: 0.9rem;
   font-family: 'inherit';
   width: 12rem;
   height: auto;

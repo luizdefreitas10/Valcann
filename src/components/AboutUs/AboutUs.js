@@ -6,6 +6,7 @@ import {
   AboutUsTextContainer,
   AboutUsH1
 } from "../../styles/components/AboutUs/styles";
+import CapacitingButton from "../CapacitingButton/CapacitingButton";
 
 export default function AboutUs() {
   return (
@@ -28,7 +29,7 @@ export default function AboutUs() {
             transformação digital.
           </p>
           <br/>
-          <CustomButton />
+          <CapacitingButton />
         </AboutUsTextContainer>
       </Container>
     </>

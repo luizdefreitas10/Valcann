@@ -15,7 +15,7 @@ export default function AddToCartButton({ serviceDetail }) {
       <IconContainer>
         <CartIcon />
       </IconContainer>
-      <Text>Add to Cart</Text>
+      <Text>Adicionar ao carrinho</Text>
     </CartBtn>
   );
 }

@@ -36,7 +36,7 @@ export const Text = styled.p`
 
 export const CartBtn = styled.button`
   margin: 0 auto;
-  width: 140px;
+  width: 200px;
   height: 40px;
   border-radius: 12px;
   border: none;

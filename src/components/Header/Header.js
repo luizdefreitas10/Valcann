@@ -76,8 +76,8 @@ export default function Header() {
         }}>Contato</Link>
       </Modal>
       <Nav>
-        <StyledLink onClick={() => navigate("/")}>Home</StyledLink>
-        <StyledLink>Serviços</StyledLink>
+        <StyledLink onClick={() => navigate('/')}>Home</StyledLink>
+        <StyledLink onClick={() => navigate('/services')}>Serviços</StyledLink>
         <StyledLink>Contato</StyledLink>
       </Nav>
       <CartContainer>
