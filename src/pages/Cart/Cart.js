@@ -2,13 +2,17 @@ import { useContext, useEffect, useState } from "react";
 import { shoppingCartContext } from "../../context/shoppingCartContext";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import { Table, TableHeader, TableRow, TableCell, CheckoutButton, H1, ClearCartButton, CartButtonsDiv, TotalPriceText } from '../../styles/pages/Cart/styles';
+import { Table, TableHeader, TableRow, TableCell, CheckoutButton, H1, ClearCartButton, CartButtonsDiv, TotalPriceText, CartWrapper } from '../../styles/pages/Cart/styles';
+import { MdOutlineKeyboardBackspace } from 'react-icons/md'
+import { useNavigate } from "react-router-dom";
 
 export default function Cart () {
 
   const { cartItems, clearCart } = useContext(shoppingCartContext);
 
   const [totalPrice, setTotalPrice] = useState(0);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const showTotalPrice = () => {
@@ -23,9 +27,11 @@ export default function Cart () {
   }, [cartItems]);
 
   return (
-    <div>
+    <CartWrapper>
       <Header />
       <br />
+
+      <MdOutlineKeyboardBackspace onClick={() => navigate('/services')}/>
       <H1>Carrinho</H1>
       { cartItems.length > 0 ? (
         <>
@@ -63,6 +69,6 @@ export default function Cart () {
       )}
       <TotalPriceText>{`Valor total: R$ ${totalPrice}`}</TotalPriceText>
       <Footer id='contato' />
-    </div>
+    </CartWrapper>
   );
 };

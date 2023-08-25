@@ -102,3 +102,15 @@ margin-left: 10px;
   }
 }
 `;
+
+export const CartWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  & svg {
+    margin-left: 15%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
+`;

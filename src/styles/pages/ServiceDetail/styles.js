@@ -7,11 +7,11 @@ export const ServiceDetailContainer = styled.div`
   background-color: aliceblue;
   padding: 3rem;
   border-radius: 5px;
-  margin-top: 3.5rem;
 
   @media (max-width: 850px) {
     flex-direction: column;
   }
+
 `;
 
 export const DetailsContainer = styled.div`
@@ -42,4 +42,14 @@ export const DetailsContainer = styled.div`
 
 export const Wrapper = styled.div`
   margin-top: 1rem;
+`;
+
+export const ServiceDetailWrappper = styled.div`
+
+  & svg {
+    margin-left: 15%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
 `;

@@ -1,27 +1,22 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { services } from "../../mocks/Cards/cards";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import { ServiceDetailContainer, DetailsContainer, Wrapper } from "../../styles/pages/ServiceDetail/styles";
-import { useContext } from "react";
-import { shoppingCartContext } from "../../context/shoppingCartContext";
+import { ServiceDetailContainer, DetailsContainer, ServiceDetailWrappper } from "../../styles/pages/ServiceDetail/styles";
 import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
+import { MdOutlineKeyboardBackspace } from 'react-icons/md'
 
 export default function ServiceDetail() {
   const { id } = useParams();
-  const { cartItems, setCartItems } = useContext(shoppingCartContext);
 
-  const addToCart = (string) => {
-    setCartItems([...cartItems, string]);
-  };
-
-  console.log(cartItems);
+  const navigate = useNavigate();
 
   const serviceDetail = services.find((service) => service.id === id);
 
   return (
-    <>
+    <ServiceDetailWrappper>
       <Header />
+      <MdOutlineKeyboardBackspace onClick={() => navigate('/')} width={250} height={250}/>
       <ServiceDetailContainer>
         <div>
           <img src={serviceDetail.imageUrl} alt="" width={350} height={350} />
@@ -38,6 +33,6 @@ export default function ServiceDetail() {
         </DetailsContainer>
       </ServiceDetailContainer>
       <Footer id='contato' />
-    </>
+    </ServiceDetailWrappper>
   );
 }
