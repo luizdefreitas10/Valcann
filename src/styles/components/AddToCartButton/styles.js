@@ -40,7 +40,8 @@ export const CartBtn = styled.button`
   height: 40px;
   border-radius: 12px;
   border: none;
-  background-color: rgb(255, 208, 0);
+  background-color: #C3C3C6;
+  /* background-color: rgb(255, 208, 0); */
   display: flex;
   align-items: center;
   justify-content: center;

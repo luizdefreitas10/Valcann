@@ -23,6 +23,10 @@ export const Nav = styled.nav`
   justify-content: space-around;
   align-items: center;
   width: 20rem;
+
+  @media (max-width: 585px) {
+    display: none;
+  }
 `;
 
 export const StyledLink = styled.a`
@@ -65,4 +69,50 @@ export const CartContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+`;
+
+export const MenuSideBarImg = styled.img`
+  display: none;
+
+  @media (max-width: 585px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+
+export const MenuContainer = styled.div`
+  display: none;
+
+@media (max-width: 585px) {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+`;
+
+export const Modal = styled.div`
+    position: fixed;
+    top: 190px;
+    left: 350px;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 107px;
+    background-color: white;
+    border-radius: 5px;
+    display: ${props => props.isOpen ? 'block' : 'none'};
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+`;
+
+export const Link = styled.a`
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #11111f;
+    &:hover {
+        background-color: #f5f5f5;
+    }
 `;

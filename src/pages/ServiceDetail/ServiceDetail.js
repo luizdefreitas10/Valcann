@@ -37,7 +37,7 @@ export default function ServiceDetail() {
           <AddToCartButton serviceDetail={serviceDetail}>Adicionar ao carrinho</AddToCartButton>
         </DetailsContainer>
       </ServiceDetailContainer>
-      <Footer />
+      <Footer id='contato' />
     </>
   );
 }

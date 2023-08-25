@@ -12,12 +12,12 @@ export default function Services () {
         <br />
         <H1>Porque escolher a TechSales?</H1>
         <WhyTechSalesText>Na TechSales, fornecemos soluções tecnológicas inovadoras e confiáveis ​​para ajudá-lo a atingir seus objetivos de negócios. Nossa equipe de especialistas oferece atendimento e suporte personalizados para garantir que você aproveite ao máximo seu investimento. Com nossas soluções de tecnologia de ponta, você pode agilizar suas operações, otimizar seus processos e aprimorar a experiência do cliente.</WhyTechSalesText>
-        <H1>Conheça nossos serviços</H1>
+        <H1 id='serviços'>Conheça nossos serviços</H1>
         <br />
         <CardContainer>
           <Card />
         </CardContainer>
-        <Footer />
+        <Footer id='contato'/>
       </Content>
   );
 

@@ -62,7 +62,7 @@ export default function Cart () {
         </>
       )}
       <TotalPriceText>{`Valor total: R$ ${totalPrice}`}</TotalPriceText>
-      <Footer />
+      <Footer id='contato' />
     </div>
   );
 };

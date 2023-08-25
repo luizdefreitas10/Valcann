@@ -4,6 +4,8 @@ const shoppingCartContext = createContext({});
 
 function ShoppingCartProvider ({ children }) {
   const [cartItems, setCartItems] = useState([]);
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+
 
   const clearCart = () => {
     setCartItems([]);
@@ -11,7 +13,7 @@ function ShoppingCartProvider ({ children }) {
 
   return (
     <shoppingCartContext.Provider
-      value={{ cartItems, setCartItems, clearCart }}
+      value={{ cartItems, setCartItems, clearCart, menuIsOpen, setMenuIsOpen}}
     >
       {children}
     </shoppingCartContext.Provider>
