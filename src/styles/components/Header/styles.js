@@ -69,6 +69,13 @@ export const CartContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  & img {
+    &:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.3s;
+    }
+  }
 `;
 
 export const MenuSideBarImg = styled.img`

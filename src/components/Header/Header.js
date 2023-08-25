@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef, useState, useEffect, useContext } from "react";
 import newTechSales from "../../assets/imgs/newtechsalesnobg.png";
 import {

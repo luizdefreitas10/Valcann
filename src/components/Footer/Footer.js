@@ -2,34 +2,34 @@ import {
   FooterContainer,
   RightFooter,
   LeftFooter,
-  CopyrightText
+  CopyrightText, 
+  RigthFooterText
 } from "../../styles/components/Footer/styles";
-// import SocialMediaLinks from "../SocialMediaLinks/SocialMediaLinks";
+import SocialMediaLinks from "../SocialMediaLinks/SocialMediaLinks";
 
 export default function Footer() {
   return (
     <>
       <FooterContainer>
-        {/* <LeftFooter>
+        <LeftFooter>
           <SocialMediaLinks />
-        </LeftFooter> */}
+        </LeftFooter>
         <RightFooter>
           <p>TechSales | Impulsionando seus negócios</p>
           <br />
-          <p>www.techsales.com.br</p>
+          <RigthFooterText>www.techsales.com.br</RigthFooterText>
           <br />
-          <p>+55(81)3333-3333</p>
+          <RigthFooterText>+55(81)3333-3333</RigthFooterText>
           <br />
-          <p>
+          <RigthFooterText>
             Avenida Boa Viagem, n4000, Empresarial Trade Center, Recife,
             Pernambuco
-          </p>
+          </RigthFooterText>
           <br />
-          <p>faleconosco@techsales.com.br</p>
+          <RigthFooterText>faleconosco@techsales.com.br</RigthFooterText>
         </RightFooter>
-        <br />
       </FooterContainer>
-      <CopyrightText>© 2023 · Luiz de Freitas · Todos os direitos reservados.</CopyrightText>
+      <CopyrightText>© 2023 · Luiz de Freitas Lima Neto · Todos os direitos reservados.</CopyrightText>
     </>
   );
 }
