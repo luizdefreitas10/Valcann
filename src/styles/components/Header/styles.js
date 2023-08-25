@@ -102,7 +102,7 @@ export const MenuContainer = styled.div`
 export const Modal = styled.div`
     position: fixed;
     top: 190px;
-    left: 350px;
+    left: 65%;
     transform: translate(-50%, -50%);
     width: 200px;
     height: 107px;
