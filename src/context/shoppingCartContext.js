@@ -1,4 +1,5 @@
 import React, { createContext, useState } from "react";
+import { toast } from "react-toastify";
 
 const shoppingCartContext = createContext({});
 
@@ -8,6 +9,7 @@ function ShoppingCartProvider ({ children }) {
 
 
   const clearCart = () => {
+    toast.error('Todos os produtos foram removidos do carrinho.');
     setCartItems([]);
   };
 

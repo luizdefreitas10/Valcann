@@ -1,6 +1,8 @@
 import { CartBtn, IconContainer, Text, CartIcon } from "../../styles/components/AddToCartButton/styles";
 import { useContext } from "react";
 import { shoppingCartContext } from "../../context/shoppingCartContext";
+import { toast } from "react-toastify";
+
 
 export default function AddToCartButton({ serviceDetail }) {
 
@@ -8,6 +10,7 @@ export default function AddToCartButton({ serviceDetail }) {
 
   const addToCart = (string) => {
     setCartItems([...cartItems, string]);
+    toast.success('Produto adicionado ao carrinho com succeso!');
   };
 
   return (
