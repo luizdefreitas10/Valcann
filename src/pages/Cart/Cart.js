@@ -31,7 +31,7 @@ export default function Cart () {
       <Header />
       <br />
 
-      <MdOutlineKeyboardBackspace onClick={() => navigate('/services')}/>
+      <MdOutlineKeyboardBackspace onClick={() => navigate('/')}/>
       <H1>Carrinho</H1>
       { cartItems.length > 0 ? (
         <>
