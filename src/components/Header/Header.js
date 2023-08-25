@@ -70,14 +70,14 @@ export default function Header() {
           navigate('/services');
           handleModalClick();
         }}>Serviços</Link>
-        <Link href="#contato" onClick={() => {
+        <Link onClick={() => {
           handleModalClick();
-        }}>Contato</Link>
+        }}>Carrinho</Link>
       </Modal>
       <Nav>
         <StyledLink onClick={() => navigate('/')}>Home</StyledLink>
         <StyledLink onClick={() => navigate('/services')}>Serviços</StyledLink>
-        <StyledLink>Contato</StyledLink>
+        <StyledLink onClick={() => navigate('/cart')}>Carrinho</StyledLink>
       </Nav>
       <CartContainer>
         <img

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as CartSVG } from '../../../assets/svgs/shoppingCartSvgBlack.svg'; // Substitua pelo caminho correto para seu arquivo SVG
+import { ReactComponent as CartSVG } from '../../../assets/svgs/shoppingCartSvgBlack.svg';
 
 export const IconContainer = styled.span`
   position: absolute;
@@ -18,7 +18,7 @@ export const IconContainer = styled.span`
 
 export const CartIcon = styled(CartSVG)`
   fill: #000;
-  height: 1em;
+  height: 1rem;
 `;
 
 export const Text = styled.p`
@@ -36,12 +36,11 @@ export const Text = styled.p`
 
 export const CartBtn = styled.button`
   margin: 0 auto;
-  width: 200px;
+  width: 220px;
   height: 40px;
   border-radius: 12px;
   border: none;
   background-color: #C3C3C6;
-  /* background-color: rgb(255, 208, 0); */
   display: flex;
   align-items: center;
   justify-content: center;
