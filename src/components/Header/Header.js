@@ -71,6 +71,7 @@ export default function Header() {
           handleModalClick();
         }}>Serviços</Link>
         <Link onClick={() => {
+          navigate('/cart');
           handleModalClick();
         }}>Carrinho</Link>
       </Modal>
