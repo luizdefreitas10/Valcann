@@ -16,6 +16,9 @@ Um moderno e-commerce desenvolvido para venda de serviços de tecnologia. Utiliz
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **HTML**
+- **CSS**
+- -**JavaScript**
 - **React**: Framework JS para criar a interface do usuário.
 - **Styled Components**: Estilização dos componentes.
 - **React Router Dom**: Rotas.
@@ -25,27 +28,27 @@ Um moderno e-commerce desenvolvido para venda de serviços de tecnologia. Utiliz
 
 1. **Clone o repositório**
 
-git clone https://github.com/luizdefreitas10/Valcann.git
+  git clone https://github.com/luizdefreitas10/Valcann.git
 
 2. **Instale as dependências**
-Usando npm:
+  Usando npm:
 
-npm install
+  npm install
 
-Ou usando yarn:
+  Ou usando yarn:
 
-yarn install
+  yarn install
 
 3. **Rode a aplicação**
-Usando npm:
+  Usando npm:
 
-npm start
+  npm start
 
-Ou usando yarn:
+  Ou usando yarn:
 
-yarn start
+  yarn start
 
-O projeto estará rodando no endereço http://localhost:3000.
+  O projeto estará rodando no endereço http://localhost:3000.
 
 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
@@ -56,5 +59,6 @@ Para dúvidas ou sugestões, entre em contato através de:
 E-mail: luizdefreitas10@gmail.com
 Portfolio: https://portfolio-dev-luiz.vercel.app/
 LinkedIn: Luiz de Freitas Lima Neto (https://www.linkedin.com/in/luiz-de-freitas-lima-neto/)
+Link da aplicação TechSales E-commerce: https://valcann-techsales.vercel.app/
 
-Agradeço por seu interesse no projeto e espero que seja útil!!
+Obrigado pelo interesse no projeto e espero que seja útil!!
