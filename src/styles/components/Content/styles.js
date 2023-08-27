@@ -15,10 +15,11 @@ export const Content = styled.div`
   position: relative;
   z-index: 3;
   margin-top: 410px;
+  margin-bottom: 0.5rem;
   background-color: white;
   /* padding: 1rem; */
   text-align: justify;
-  `;
+`;
 
 export const H1 = styled.h1`
   text-align: center;

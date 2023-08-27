@@ -16,7 +16,7 @@ import { shoppingCartContext } from "../../context/shoppingCartContext";
 import shoppingCartSvg from "../../assets/svgs/shoppingCartSvg.svg";
 import menuSideBarPng from "../../assets/imgs/menuSideBar.png";
 export default function Header() {
-  const [isFixed, setIsFixed] = useState(true);
+  const [isFixed, setIsFixed] = useState(false);
   const { cartItems, menuIsOpen, setMenuIsOpen } =
     useContext(shoppingCartContext);
   const headerRef = useRef(null);
@@ -44,7 +44,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Container ref={headerRef} $isFixed={isFixed}>
+    <Container ref={headerRef} isFixed={isFixed}>
       <img
         src={newTechSales}
         alt="techsaleslogo"
@@ -61,7 +61,7 @@ export default function Header() {
           onClick={handleModalClick}
         />
       </MenuContainer>
-      <Modal $isOpen={menuIsOpen}>
+      <Modal isOpen={menuIsOpen}>
         <Link onClick={() => {
           handleModalClick();
           navigate('/');

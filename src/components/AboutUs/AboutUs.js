@@ -6,7 +6,6 @@ import {
   AboutUsH1
 } from "../../styles/components/AboutUs/styles";
 import CapacitingButton from "../CapacitingButton/CapacitingButton";
-// import StyledBackgroundDiv from "../StyledBackgroundDiv/StyledBackgroundDiv";
 
 
 
