@@ -18,6 +18,10 @@ export const Container = styled.div`
     width: 100px;
     height: 100px;
   }
+
+  @media (max-width: 600px) {
+    margin-bottom: 7rem;
+  }
 `;
 
 export const TextContent = styled.div`

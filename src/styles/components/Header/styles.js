@@ -6,9 +6,8 @@ export const Container = styled.div`
   background-color: #11111f;
   width: 100%;
   height: 10rem;
-  position: ${(props) => props.isFixed ? 'fixed' : 'sticky'};
-  /* position: fixed; */
-  top: ${props => (props.isFixed ? '-10rem' : '0')};
+  position: ${(props) => props.$isFixed ? 'fixed' : 'sticky'};
+  top: ${props => props.$isOpen ? '-10rem' : '0'};
   z-index: 5;
 
   & img {
