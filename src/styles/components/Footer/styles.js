@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   background-color: #11111f;
-  height: 14.5rem;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -18,19 +18,19 @@ export const FooterContainer = styled.footer`
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
-    height: 17.5rem;
+    /* height: 17.5rem; */
   }
 
   @media (max-width: 571px) {
-    height: 23.5rem;
+    /* height: 23.5rem; */
   }
 
   @media (max-width: 378px) {
-    height: 25rem;
+    /* height: 25rem; */
   }
 
   @media (max-width: 300px) {
-    height: 30.5rem;
+    /* height: 30.5rem; */
   }
 `;
 
